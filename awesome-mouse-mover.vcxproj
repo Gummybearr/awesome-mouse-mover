@@ -140,6 +140,12 @@
   <ItemGroup>
     <ClCompile Include="awesome-mouse-mover.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="awesome-mouse-mover.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="awesome-mouse-mover.rc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
