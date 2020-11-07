@@ -9,7 +9,7 @@ void showIntro() {
     ****************************************************************** \n \
                                                                        \n \
           This program moves your mouse every 5 minutes.               \n \
-          This program will run in background.                         \n \
+          This program WILL run in BACKGROUND.                         \n \
           If you want to close the program,                            \n \
           press ALT + SHIFT + DEL to activate process manger.          \n \
                                                                        \n \
