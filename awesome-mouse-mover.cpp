@@ -2,7 +2,7 @@
 #include <Windows.h>
 #include <conio.h>
 
-char WORKSPACE = 'f';
+char WORKSPACE = 'b';
 
 void showIntro() {
     //Tells users how to use the program and how they can set the program run in background or foreground.
