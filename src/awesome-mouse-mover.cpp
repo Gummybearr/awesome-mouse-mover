@@ -8,7 +8,7 @@ void showIntro() {
         L"\
     ****************************************************************** \n \
                                                                        \n \
-          This program moves your mouse every 5 minutes.               \n \
+          This program will press shift key every 5 minutes.               \n \
           This program WILL run in BACKGROUND.                         \n \
           If you want to close the program,                            \n \
           press ALT + SHIFT + DEL to activate process manger.          \n \
@@ -19,14 +19,13 @@ void showIntro() {
 }
 
 void runMacro() {
-    //Moves mouse to upper left corner and clicks every 5 minutes.
+    //Moves mouse to upper left corner and press shift every 5 minutes.
     int counter = 0;
     while (true) {
         if (counter >= 300) {
             counter = 0;
-            SetCursorPos(763, 1060);
-            mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
-            mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
+            keybd_event(VK_SHIFT, 0, 0, 0);
+            keybd_event(VK_SHIFT, 0, KEYEVENTF_KEYUP, 0);
         }
         ++counter;  Sleep(1000);
     }
