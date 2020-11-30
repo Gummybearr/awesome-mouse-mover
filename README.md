@@ -18,5 +18,12 @@ You can make this program run automatically on boot.
 
 4) Click right mouse button inside "Startup" folder to create a shortcut
 
+
+## Update Log
+
+v1.0 - Mouse click on left upper corner in every 5 minutes
+
+v1.1 - Mouse click disappeared. It not presses shift key, so it now is awesome-shift-key presser😂
+
 ## Licence
 [MIT](https://choosealicense.com/licenses/mit/)
